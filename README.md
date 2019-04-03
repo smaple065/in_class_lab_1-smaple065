@@ -8,7 +8,7 @@ Instructions:
 3. You need to clone *your* copy of the public repository.  To do so, at a command prompt type: "git clone *link to your repo*"   It should be something like: "git clone https://github.com/osp19/in_class_lab_1_username" (where username is your GitHub username). *Do not clone this link, which is the assignment parent repo, or you will not be able to push your code: https://github.com/osp19/in_class_lab_1.git*
 4. Once you have cloned the repository, you can start editing the code.  Write your solution using an editor of your choice.  Test your code by compiling and running it.
 5. Normally, you will make changes to your code and do the following add/commit/push step in small increments.  For example, implement and test a function, then add/commmit/push your work to GitHub.  This lets you track your progress *and* have a back-up of your work.
-6. For this assignment, you will write a complete solution and do add/commit/push twice.  After writing your code, do the following:
+6. For this assignment, you will write a complete solution and do add/commit/push twice.  What you should do is convert the code from using execvp to use execlp. After writing your code, do the following:
   * git add fork.c
   * git commit fork.c
   * If needed, follow the instructions to setup your name and e-mail address.
