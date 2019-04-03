@@ -12,9 +12,10 @@ Instructions:
   * git add fork.c
   * git commit fork.c
   * If needed, follow the instructions to setup your name and e-mail address.
-  * The commit command requires you to type a commit message.  It should be meaningful, but brief.  For example "Converted between versions of exec (execvp to execlp
+  * The commit command requires you to type a commit message.  It should be meaningful, but brief.  For example "Converted between versions of exec (execvp to execlp)"
   * git push
   * (You will be asked for username/password to GitHub)
 
 7. Check to make sure your changes got sent to the GitHub repository.  If they did, make one more change to your code on luke.  For example, add a comment header at the top with your name, date, etc.
 8. Follow the previous steps to add/commit/push your code to GitHub.
+9. You will not turn anything in to Canvas.  The last commit at the due date/time will be snapshotted for grading.  
