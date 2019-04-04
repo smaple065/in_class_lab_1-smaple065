@@ -24,7 +24,9 @@ main(int argc, char *argv[])
         myargs[1] = strdup("fork.c"); // argument: file to count
         myargs[2] = NULL;           // marks end of array
         //execvp(myargs[0], myargs);  // runs word count
-        execlp(myargs[0], myargs[1], myargs[2]);  // runs word count
+        //execlp(myargs[0], myargs[1], myargs[2]);  // runs word count
+        execvp(myargs[0], myargs);  // runs word count
+        printf("this shouldn't print out");
         printf("this shouldn't print out");
     } else {
         // parent goes down this path (original process)
